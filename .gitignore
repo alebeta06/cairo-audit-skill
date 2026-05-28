@@ -1,0 +1,31 @@
+# 🇪🇸 NOTA: .gitignore lista lo que git NO debe versionar (artefactos generados, caches,
+# config local). Cada bloque va comentado con su porqué.
+
+# === Cairo / Scarb ===
+# 🇪🇸 NOTA: 'target/' es donde Scarb deja los artefactos de compilación. Se regeneran, no se versionan.
+target/
+
+# === Starknet Foundry (snforge) ===
+# 🇪🇸 NOTA: caches y trazas de ejecución de tests. Efímeros.
+.snfoundry_cache/
+snfoundry_trace/
+coverage/
+
+# === Python (Caracal y tooling) ===
+# 🇪🇸 NOTA: Caracal corre sobre Python; estos son artefactos de entornos virtuales y bytecode.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# === Local tooling / agent state ===
+# 🇪🇸 NOTA: estado local de herramientas de agentes y settings personales (no se comparten en git).
+.claude-flow/
+.claude/settings.local.json
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
