@@ -23,6 +23,13 @@ venv/
 .claude-flow/
 .claude/settings.local.json
 
+# === Secrets / env ===
+# 🇪🇸 NOTA: tokens y credenciales (p. ej. GITHUB_PERSONAL_ACCESS_TOKEN) nunca van a git.
+# Ver docs/MCP_SETUP.md para cómo configurar variables de entorno de forma segura.
+.env
+.env.local
+.env.*.local
+
 # === OS / editor ===
 .DS_Store
 Thumbs.db

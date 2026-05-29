@@ -39,6 +39,16 @@ cp -r "$(pwd)" ~/.claude/skills/cairo-audit-skill
 Then restart Claude Code. The skill activates automatically when you ask about auditing
 Cairo/Starknet contracts.
 
+### MCP servers
+
+This project ships a `.mcp.json` declaring the MCP servers it needs (`ruflo` for
+multi-agent orchestration, `github` for issue/PR tooling). See
+[`docs/MCP_SETUP.md`](docs/MCP_SETUP.md) for setup, required env vars and
+troubleshooting.
+
+<!-- 🇪🇸 NOTA: `.mcp.json` se versiona en git para que cualquier contribuidor
+     levante el mismo entorno de servidores MCP al abrir el repo en Claude Code. -->
+
 ## Usage
 
 > 🚧 Coming soon. Once populated, ask Claude things like *"audit this Cairo contract"* and the skill
