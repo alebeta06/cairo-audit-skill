@@ -6,7 +6,32 @@
 <!-- 🇪🇸 NOTA: Este README es la cara pública del repo (lo ve la gente en GitHub), por eso va en
      inglés. Ojo a la diferencia: el SKILL.md lo consume Claude; este README es para HUMANOS. -->
 
-> **Status:** 🚧 Early WIP — project scaffolding only. No audit content yet.
+> [![Status](https://img.shields.io/badge/status-active%20development%20paused-yellow)](#status-may-2026)
+> **Active Development Paused** · Resuming July–August 2026
+
+## Status (May 2026)
+
+Active development is **temporarily paused** while the author completes a Master's
+in Blockchain Systems & AI Engineering (CodeCrypto). This is a **strategic pause**,
+not an abandonment — the repo stays open and the roadmap is intact.
+
+**Completed so far**
+- ✅ Day 1 Discovery: **31 vulnerability patterns** identified across the Cairo/Starknet threat landscape
+- ✅ **PAT-001 → PAT-010** prioritized and queued for documentation
+- ✅ Project scaffolding, `SKILL.md` skeleton, and MCP setup in place
+
+**Timeline**
+- ⏸️ Active development paused: **June 2026**
+- ▶️ Resuming: **July–August 2026**, starting with **PAT-001**
+
+**The repo stays open** — issues, discussions, and PRs are welcome and will be reviewed.
+
+<!-- 🇪🇸 NOTA: Esta pausa es deliberada y estratégica, no un abandono. El autor está
+     completando su Máster en Ingeniería de Sistemas Blockchain & IA (CodeCrypto) y
+     prioriza terminarlo antes de seguir documentando patrones. La palabra "Abandoned"
+     mata proyectos open source (la gente deja de contribuir y de usarlos); por eso
+     usamos "Active Development Paused" con fecha de retorno concreta. Mantener el repo
+     abierto a issues/PRs señala que el proyecto sigue vivo. -->
 
 ## What is this?
 
